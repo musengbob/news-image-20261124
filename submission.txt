@@ -35,3 +35,13 @@
 - Agent/session id: 928c4f5b-1be8-43af-836b-a1827e13253d
 - No credential file was read, opened or pointed at; no API key touched;
   no bundling and no submit done in this phase.
+
+## Submission (parent)
+- Submission: 01a20afe-b70b-705b-8c7a-2bbc2e744c86
+- Receipt: 2026-11-24T00:39:54.613Z (HTTP 202 accepted)
+- Submitted commit: 206f3a75b339cc4a88f2d204fc4fa7ecf0022b57 (PHASE2.md + submission.txt added to builder's 143aceaaf)
+- Claim code: AF-JBNDQ-CQTXJ-N5N4S-4HHZN
+- Bundle: news-image-20261124-bundle.tar.gz, 372,218 bytes, sha256 096c3c0d4d1d706c056ea4fa5a30b988a54761763105655e2c0991ffa746525c
+- Kit check: 14 passed / 0 failed / 5 skipped (reproduces 44.5%, unwritten 1.7%, revised PASS, priced 2 records)
+- Stage: submitted, checks processing (grading queue behind; verify on /me)
+- Blind rounds: 4, round 1 cutoff 2026-11-24T12:00:00Z, entries close 2026-11-26T00:00:00Z
