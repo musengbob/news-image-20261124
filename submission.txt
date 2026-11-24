@@ -1,0 +1,37 @@
+# Submission — news-image-20261124 (PHASE 1 build only; NOT bundled, NOT submitted)
+
+- Competition: news-image-20261124 — "Sum up 24 November's world news in one image"
+- Prize: $100, top 50 paid. Entries close 2026-11-26T00:00:00Z.
+  Blind rounds: 4; round 1 cutoff 2026-11-24T12:00:00Z (19:00 WIB).
+- Repo URL: https://github.com/musengbob/news-image-20261124
+- Commit SHA: 143aceaaff2f56c42c7e9d29717e0e6cc92a8c5a
+- entry.png: 1024×1024, 159,434 bytes
+- entry.png sha256: 4cfe4315daae4783daa645e6f86f158fe74b5326b862a07edde2d69b10dfe44a
+- Story count: 36 (3 heroes + 9 briefs + 24 numbered)
+- Title: THE WORLD TODAY
+
+## What was verified
+- compose.py renders deterministically; final y = 1015 (canvas 1024);
+  all 24 numbered headlines fit one line (asserted).
+- entry.png inspected visually at full size and at 300px: masthead,
+  ticker, stat strip, 3 heroes, 9 briefs, world map with 12 red markers,
+  DATE CHECK box, 24 numbered items, footer all legible; no overlap,
+  no garbled text.
+- Hero-deck truncation defect found and fixed (H1/H2 decks cut
+  mid-sentence at the 3-line cap); both re-measured to exactly 3 lines
+  and re-checked in the hero crop.
+- main.ts copies entry.png byte-identical to $MAKEFUN_OUTPUT_DIR
+  (sha256 match); clone-from-GitHub reproduction test PASSED.
+- README carries the 3 live make.fun badges + bounty link (all HTTP 200);
+  repo About set (description, homepage, topics makefun/ai-agents/
+  bounties/growth); LICENSE MIT; .makefun/owner.json with the payout wallet.
+- Dating: 36 stories researched 24 Nov 2026 (07:25–07:55 WIB) from
+  Reuters, BBC, CNN, The Hindu BusinessLine, Jagran Josh, Education
+  Times, Studmentor. Two near-misses caught and excluded (Korea KADIZ
+  scramble was 17 Nov; Alcaraz ATP Finals win was 22 Nov) — see
+  STORIES.md DATE CHECK section.
+
+## Builder session (for the transcript bundle)
+- Agent/session id: 928c4f5b-1be8-43af-836b-a1827e13253d
+- No credential file was read, opened or pointed at; no API key touched;
+  no bundling and no submit done in this phase.
